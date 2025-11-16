@@ -75,12 +75,6 @@ int main()
         r.DiChuyen(Huong, Qua);
         Sleep(300);
     }
-    
-    system("cls");
-    VeKhung();
-    r.Ve();
-    r.DiChuyen(Huong);
-    Sleep(300);
 
     return 0;
 }
@@ -97,3 +91,4 @@ void gotoxy( int column, int line )
     coord
     );
   }
+
